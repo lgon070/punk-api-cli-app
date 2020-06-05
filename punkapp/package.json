@@ -1,0 +1,17 @@
+{
+  "name": "punkapp",
+  "version": "1.0.0",
+  "description": "Punk CLI App to search and fetch alcoholic beverages",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "cli-color": "^2.0.0",
+    "inquirer": "^7.1.0",
+    "punkmodule": "file:../punkmodule",
+    "yargs": "^15.3.1"
+  }
+}
